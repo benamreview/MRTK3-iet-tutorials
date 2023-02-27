@@ -9,5 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Aquarium.unity
     guid: bb0a46230b70094489af0ba5b522cf41
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b224c57a5edf4844ea800d93badabd15, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: dc198666d5fda6349aeecaf8a3b057eb, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: ba4b88bf9dfed0d419e3dc06fae5783c, type: 2}
