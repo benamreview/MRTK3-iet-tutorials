@@ -6,10 +6,18 @@ using TMPro;
 public class LoginManager : MonoBehaviourPunCallbacks
 {
     public TMP_InputField PlayerName_InputName;
+    [SerializeField]
+    List<string> names;
+    
+    // void Update (){
+    //     Debug.Log(names[Random.Range(0, names.count)] + " " + names[Random.Range(0, names.count)]);
+    // }
     #region Unity Methods
     // Start is called before the first frame update
     void Start()
     {
+        string randomName = names[Random.Range(0, names.Count)] + "_" + Random.Range(0, 999).ToString();
+        PlayerName_InputName.text = randomName;
     }
 
     // Update is called once per frame
@@ -20,6 +28,7 @@ public class LoginManager : MonoBehaviourPunCallbacks
     #endregion
 
     public void ConnectAnonymously() {
+        PhotonNetwork.NickName = PlayerName_InputName.text;
         PhotonNetwork.ConnectUsingSettings();
     }
     public void ConnectToPhotonServer() {
