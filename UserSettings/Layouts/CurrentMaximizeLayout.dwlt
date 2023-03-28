@@ -15,17 +15,16 @@ MonoBehaviour:
   m_Children:
   - {fileID: 3}
   - {fileID: 13}
-  - {fileID: 16}
   m_Position:
     serializedVersion: 2
     x: 0
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 500, y: 200}
-  m_MaxSize: {x: 40480, y: 16192}
+  m_MinSize: {x: 400, y: 200}
+  m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 6835
+  controlID: 401
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -46,9 +45,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 746
+    x: 984
     y: 73
-    width: 557
+    width: 537
     height: 540
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -60,7 +59,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 557, y: 519}
+  m_TargetSize: {x: 537, y: 519}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -75,8 +74,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -278.5
-    m_HBaseRangeMax: 278.5
+    m_HBaseRangeMin: -268.5
+    m_HBaseRangeMax: 268.5
     m_VBaseRangeMin: -259.5
     m_VBaseRangeMax: 259.5
     m_HAllowExceedBaseRangeMin: 1
@@ -96,26 +95,26 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 557
+      width: 537
       height: 519
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 278.5, y: 259.5}
+    m_Translation: {x: 268.5, y: 259.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -278.5
+      x: -268.5
       y: -259.5
-      width: 557
+      width: 537
       height: 519
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 557, y: 540}
+  m_LastWindowPixelSize: {x: 537, y: 540}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
-  m_LowResolutionForAspectRatios: 00000000000000000000
+  m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
 --- !u!114 &3
@@ -137,12 +136,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1305
+    width: 1523
     height: 947
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 6820
+  controlID: 402
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -163,12 +162,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1305
+    width: 1523
     height: 561
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 6821
+  controlID: 403
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -186,7 +185,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 284
+    width: 361
     height: 561
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
@@ -217,7 +216,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 283
+    width: 360
     height: 540
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -228,7 +227,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: c667ffffcc67ffffcad1ffffeeebffff6aecffff7eecffff88ecffffb4f5ffff28fbffff468900008e890000
+      m_ExpandedIDs: 30f6ffff28fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -267,9 +266,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 284
+    x: 361
     y: 0
-    width: 462
+    width: 623
     height: 561
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -298,9 +297,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 284
+    x: 361
     y: 73
-    width: 460
+    width: 621
     height: 540
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -503,9 +502,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 52.20267, y: -24.727839, z: 8.178921}
+    m_Target: {x: 0.13636398, y: -0.9133854, z: 2.8951092}
     speed: 2
-    m_Value: {x: 52.20267, y: -24.727839, z: 8.178921}
+    m_Value: {x: 0.13636398, y: -0.9133854, z: 2.8951092}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -552,13 +551,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.10244148, y: -0.8504777, z: 0.18021521, w: -0.48344883}
+    m_Target: {x: -0.22117437, y: -0.08122818, z: 0.018489446, w: -0.9716708}
     speed: 2
-    m_Value: {x: -0.10244114, y: -0.85047483, z: 0.18021461, w: -0.48344722}
+    m_Value: {x: -0.22117414, y: -0.08122809, z: 0.018489426, w: -0.9716698}
   m_Size:
-    m_Target: 53.372746
+    m_Target: 19.456757
     speed: 2
-    m_Value: 53.372746
+    m_Value: 19.456757
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -598,9 +597,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 746
+    x: 984
     y: 0
-    width: 559
+    width: 539
     height: 561
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -626,10 +625,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 561
-    width: 1305
+    width: 1523
     height: 386
-  m_MinSize: {x: 230, y: 250}
-  m_MaxSize: {x: 10000, y: 10000}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
   m_ActualView: {fileID: 11}
   m_Panes:
   - {fileID: 11}
@@ -658,7 +657,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 634
-    width: 1304
+    width: 1522
     height: 365
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -677,22 +676,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Samples/XR Interaction Toolkit/2.0.3/Starter Assets
+    - Assets/Scenes/3D Navigation
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Samples/XR Interaction Toolkit/2.0.3/Starter Assets
+  - Assets/Scenes/3D Navigation
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\GitHub\MRTK3-iet-tutorials
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 107}
-    m_SelectedIDs: 50960000
-    m_LastClickedID: 38480
-    m_ExpandedIDs: 00000000588100007a810000569200005892000074920000d0920000489300004a9300004e960000529600005496000000ca9a3b
+    m_SelectedIDs: 34830000
+    m_LastClickedID: 33588
+    m_ExpandedIDs: 00000000527d0000547d0000827d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -720,7 +719,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000588100007a810000569200005892000074920000d0920000489300004a93000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000527d0000547d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -745,8 +744,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 5a66ffff
-    m_LastClickedInstanceID: -39334
+    m_SelectedInstanceIDs: 30830000
+    m_LastClickedInstanceID: 33584
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
@@ -764,7 +763,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 0}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -798,7 +797,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 634
-    width: 1268
+    width: 1280
     height: 365
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -819,12 +818,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1305
+    x: 1523
     y: 0
-    width: 386
+    width: 397
     height: 947
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -851,9 +850,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1305
+    x: 1523
     y: 73
-    width: 384
+    width: 396
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -865,7 +864,7 @@ MonoBehaviour:
     m_CachedPref: 160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: -39334
+  m_LastInspectedObjectInstanceID: 33584
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
@@ -892,789 +891,11 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1305
+    x: 1281
     y: 73
-    width: 384
+    width: 323
     height: 926
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
     m_SaveData: []
---- !u!114 &16
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: TutorialWindow
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 1691
-    y: 0
-    width: 229
-    height: 947
-  m_MinSize: {x: 300, y: 300}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 17}
-  m_Panes:
-  - {fileID: 17}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &17
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba8f85f9d6bbb46d180610e6061865df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_MinSize: {x: 300, y: 300}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_TitleContent:
-    m_Text: Tutorials
-    m_Image: {fileID: 0}
-    m_Tooltip: 
-  m_Pos:
-    serializedVersion: 2
-    x: 1691
-    y: 73
-    width: 228
-    height: 926
-  m_ViewDataDictionary: {fileID: 0}
-  m_OverlayCanvas:
-    m_LastAppliedPresetName: Default
-    m_SaveData: []
-  m_AllParagraphs:
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Bounds Control
-    Text:
-      m_Untranslated: "The <b>BoundsControl</b> script provides an automatically-sized
-        bounding box, along with manipulation affordances for rotation and scale.
-        In this tutorial, you'll explore the properties of <b>BoundsControl</b> as
-        you add the script to objects that can be manipulated in the aquarium.\n\n<b>Learning
-        Objectives</b>:\n\n\u2022 Add the BoundsControl component to a GameObject\n\u2022
-        Assign a Bounds Visuals Prefab\n\u2022 Limit enabled handles\n\nLet's get
-        started!\n"
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Introduction
-    Text:
-      m_Untranslated: "Woah - our aquarium is a mess! We\u2019ll need to clean up
-        and arrange the objects in the tank so that our sea animal has a nicely arranged
-        living environment!\n\nWe demonstrate in the <b>Object Manipulator</b> tutorial
-        that you can use the <b>ObjectManipulator</b> script to move, scale, and
-        rotate an object. Used by itself, <b>Object Manipulator</b> doesn't provide
-        visual cues to indicate if an object can be manipulated or has been selected.
-        Since we have a lot of objects in the aquarium to arrange, it\u2019ll be
-        helpful to have a visual cue display as we select objects to manipulate to
-        ensure that we\u2019re selecting our intended object.\n\n<b>Bounds Control</b>
-        provides us with the visual cue we\u2019ll need! For this tutorial, we\u2019ll
-        pair the two scripts together to provide an enhanced manipulation experience
-        for arranging the objects in the aquarium.\n\n<b>Note</b>: Throughout this
-        tutorial, you\u2019ll be prompted to enter Play Mode to try out a scene.
-        In the <i>Preview the Project</i> module, we share several options for trying
-        scenes. Refer to the input controls for your preferred method when trying
-        the scenes for this tutorial.\n"
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 1
-    Title:
-      m_Untranslated: <u>Instructions</u>
-    Text:
-      m_Untranslated: "Familiarize yourself with the objects in the <b>Hierarchy</b>.
-        We\u2019ll refer to some of the parent and child objects throughout the tutorial."
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Manipulating Objects with ObjectManipulator
-    Text:
-      m_Untranslated: "Currently, all the objects in the aquarium are configured
-        with the <b>Object Manipulator</b> component. <b>ObjectManipulator</b> enables
-        you to move, scale, and rotate an object. We\u2019ve restricted the scaling
-        manipulation for the objects; however, you\u2019re able to move and rotate
-        the objects.\n\nIf you\u2019re unfamiliar with <b>ObjectManipulator</b>,
-        we encourage you to review the Object Manipulator tutorial after you complete
-        this module. However, what\u2019s important to know for now is that without
-        this script, we wouldn't be able to move or rotate the objects with our preferred
-        input.\n\nLet\u2019s try arranging some of the objects in the scene now!\n"
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 1
-    Title:
-      m_Untranslated: <u>Instructions</u>
-    Text:
-      m_Untranslated: "<b>1.</b> Select <b>Play</b> to enter Play Mode.\n\n<b>2.</b>
-        Use your preferred input method to move and/or rotate the objects in the
-        aquarium. \n\n<b>3.</b> Once complete, press <b>Play</b> to exit Play Mode.\n"
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Add the BoundsControl Component
-    Text:
-      m_Untranslated: "Adding the <b>BoundsControl</b> script as a component to a
-        GameObject adds an automatically-sized bounding box around the object.\nAn
-        <i>Interactable</i> component, which lets the user hover over, select, or
-        activate an object, must also be attached to the object in order to use the
-        bounds visual intention and focus effects. (When you add this component to
-        an object, you can then refer to the object as an \u201Cinteractable.\u201D)
-        If the <b>interactable</b> isn't automatically detected, you can specify
-        the connection in the <b>Interactable Connection</b> properties for the <b>BoundsControl</b>
-        script component.\n\nWe recommend that developers use <b>ObjectManipulator</b>
-        alongside <b>BoundsControl</b>. <b>Object Manipulator</b> can serve as the
-        <b>interactable</b> for hover/focus states that the bounds visuals respond
-        to."
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 1
-    Title:
-      m_Untranslated: <u>Instructions</u>
-    Text:
-      m_Untranslated: '<b>1.</b> In the <b>Hierarchy</b>, expand <b>Aquarium</b>
-        and select the <b>Coral</b>.
-
-
-        <b>2.</b> In the <b>Inspector</b>,
-        add the <b>BoundsControl</b> script as a component.'
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items:
-      - Type:
-          m_TypeName: Unity.Tutorials.Core.Editor.ComponentAddedCriterion, Unity.Tutorials.Core.Editor,
-            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        Criterion: {fileID: 8961926525962187876, guid: 1c4daa0638311e24e930866d42b11cd1, type: 2}
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Add a Bounds Visuals Prefab
-    Text:
-      m_Untranslated: "A <b>Bounds Visuals Prefab</b> provides visuals for the bounds
-        that surround the bounding box. We provide a few pre-built bounds visuals
-        for you to use. However, you could create and use your own prefab as well!
-        We encourage you to make prefab variants of the visuals we provide and customize
-        them to fit your needs. We also recommend using a handle occlusion style
-        in which only the relevant handles along the edges of the bounds are visible.
-        This provides less visual distraction for the user.\n\nWe\u2019ll start by
-        assigning the <b>BoundingBoxWithHandles</b> prefab. The <b>BoundingBoxWithHandles</b>
-        prefab includes both a bounding box and handles that align the edges of the
-        object. The side handles are used for rotating, and the corner handles are
-        for scaling. The handles are activated by selecting (pinch or click) the
-        object. Likewise, the handles can be deactivated by selecting the object
-        once more. A select is performed with a brief click or pinch of the object.\n\nLet\u2019s
-        now add a visual for the bounds!\n"
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 1
-    Title:
-      m_Untranslated: <u>Instructions</u>
-    Text:
-      m_Untranslated: '<b>1.</b> In the <b>Hierarchy</b>, select the <b>Coral</b>
-        GameObject.
-
-
-        <b>2.</b> In the <b>Inspector</b>, navigate to the
-        <b>BoundsControl</b> component.
-
-
-        <b>3.</b>Within the <b>Bounds</b>
-        properties, select the circle icon for <b>Bounds Visuals Prefab</b>.
-
-
-        <b>4.</b>
-        Search for <b>BoundingBoxWithHandles</b> and assign the prefab. <b>IMPORTANT</b>:
-        In the <b>Select GameObject</b> window, ensure that you''re in the <b>Assets</b>
-        tab and untoggle the hidden packages by clicking the slashed eye icon on
-        the right.
-
-'
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Try it Out
-    Text:
-      m_Untranslated: Now that <b>BoundsControl</b> has been added as a component
-        for the <b>Coral</b> and the <b>BoundingBoxWithHandles</b> prefab has been
-        assigned for the <b>Bounds Visual Prefab</b>, a bounding box with handles
-        will display surrounding the Coral when the object is touched. Enter Play
-        Mode to view the bounding box surrounding the <b>Coral</b>.
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 1
-    Title:
-      m_Untranslated: <u>Instructions</u>
-    Text:
-      m_Untranslated: "<b>1.</b> Select <b>Play</b> to enter Play Mode.\n\n<b>2.</b>
-        Use your preferred input method to hover over the <b>Coral</b>. Notice that
-        a bounding box with handles surrounds the object. \n\n<b>3.</b>. Let\u2019s
-        activate the handles on the bounding box. Select the <b>Coral</b> to activate
-        the handles. As a reminder, selecting can be performed with a brief click
-        or pinch of the object.\n\n<b>4.</b> Now that the handles are activated,
-        grab one of the rotate handles (along the side edges of the <b>Coral</b>)
-        to rotate the <b>Coral</b>. Regardless of which rotate handle you select,
-        you\u2019re able to rotate the <b>Coral</b> in its place.\n\n<b>5.</b> Next,
-        select one of the scale handles (corner handle) to scale the <b>Coral</b>.
-        You can scale the object to be as large or small as you prefer.\n\n<b>6.</b>
-        Once complete, press <b>Play</b> to exit Play Mode.\n"
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items:
-      - Type:
-          m_TypeName: Unity.Tutorials.Core.Editor.PlayModeStateCriterion, Unity.Tutorials.Core.Editor,
-            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        Criterion: {fileID: 3129294594364659262, guid: 8289290872fafd04c9d4200c75171ca0, type: 2}
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Enabled Handles
-    Text:
-      m_Untranslated: "You may recall that at the beginning of the tutorial, we mentioned
-        that the scaling manipulation was disabled for the objects in the scene.
-        However, you may have noticed that you were still able to scale the <b>Coral</b>
-        by using the scale handles from the <b>Bounds Control</b>.\n\nWhat has happened
-        is that the <b>Bounds Control</b> properties have overridden the <b>Object
-        Manipulation</b> properties. Although scaling is disabled on the <b>ObjectManipulator</b>
-        component, the handles included on the <b>Bounds Visuals Prefab</b> still
-        enable scaling assuming the scaling handles are active.\n\nYou can select
-        which handles to make active by modifying the <b>Enabled Handles</b> property.\n\nLet\u2019s
-        limit <b>Bounds Control</b> to only display the <b>Rotate</b> handles.\n"
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 1
-    Title:
-      m_Untranslated: <u>Instructions</u>
-    Text:
-      m_Untranslated: '<b>1.</b> In the <b>Hierarchy</b>, select the <b>Coral</b>
-        GameObject.
-
-
-        <b>2.</b> In the <b>Inspector</b>, navigate to the
-        <b>BoundsControl</b> component.
-
-
-        <b>3.</b> Within the <b>Manipulation</b>
-        properties, select the <b>Enabled Handles</b> drop-down and select <b>None</b>
-        followed by <b>Rotation</b>.
-
-'
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Try it Out
-    Text:
-      m_Untranslated: Now that <b>Rotation</b> is the only enabled handle for the
-        <b>Coral</b>, the scale handles will no longer be visible on the bounding
-        box. Enter Play Mode to view both the visual and functional differences that
-        have been made.
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 1
-    Title:
-      m_Untranslated: <u>Instructions</u>
-    Text:
-      m_Untranslated: "<b>1.</b> Select <b>Play</b> to enter Play Mode.\n\n<b>2.</b>
-        Activate the handles by selecting (quick select or pinch) the <b>Coral</b>.\n\n<b>3.</b>
-        Notice that a bounding box with handles still surrounds the <b>Coral</b>;
-        however, all scale handles are now gone and only the rotate handles remain.\n\n<b>4.</b>
-        Next, select one of the rotate handles and rotate the <b>Coral</b>.\n\n<b>5.</b>
-        Now try to scale the cube without the handles. Since the scale handles are
-        no longer active, you\u2019re unable to scale the cube due to the scale restriction
-        set on the ObjectManipulator component.\n\n<b>6.</b> Once complete, press
-        <b>Play</b> to exit Play Mode.\n"
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Practice
-    Text:
-      m_Untranslated: "It\u2019s now time to practice what you\u2019ve learned in
-        this tutorial! The aquarium needs to be cleaned up and rearranged in preparation
-        for adding our sea animal back into its home. Using what you\u2019ve learned,
-        add <b>Bounds Control</b> to each object in the scene so that you\u2019re
-        provided with a visual affordance for manipulating the aquarium objects and
-        place the objects where you prefer. Although you could freely manipulate
-        objects without Bounds Control, including a visual affordance not only provides
-        a visual cue for what\u2019s been selected but the handles also provide fine-tuned
-        rotation.\n\nWe recommend that you restrict the <b>Bounds Control</b> handles
-        to only <b>Rotation</b>. You\u2019ll have a chance to scale the objects to
-        create a more customized look and feel in the <i>Canvas Button Bar</i> tutorial.\n\nWe
-        encourage you to refer to the <a href=\"https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-spatialmanipulation/packages/spatialmanipulation/bounds-control\">Bounds
-        Control</a> documentation for more guidance on how to configure the <b>BoundsControl</b>
-        script.\n"
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 1
-    Title:
-      m_Untranslated: <u>Instructions</u>
-    Text:
-      m_Untranslated: "Consider the following scenarios as you practice using Bounds
-        Control:\n\n\u2022 Add a bounding box without handles to an object (hint:
-        we provide a <b>BoundingBox</b> prefab which doesn\u2019t include handles)\n\u2022
-        Create a thicker padding for the bounds\n\u2022 Change the <b>Rotate Anchor</b>
-        to rotate at the object\u2019s origin\n\nOnce you\u2019re done, be sure to
-        exit Play Mode."
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 6
-    Title:
-      m_Untranslated: 
-    Text:
-      m_Untranslated: 
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 0
-    Title:
-      m_Untranslated: Summary
-    Text:
-      m_Untranslated: "In this tutorial, you learned how to add a bounding box to
-        a GameObject using the <b>BoundsControl</b> script. You can further modify
-        the properties to customize the look and behavior of the bounds. Manipulation
-        events can be added as well. \n\nBe sure to review our <a href=\"https://docs.microsoft.com/windows/mixed-reality/mrtk-unity/mrtk3-spatialmanipulation/packages/spatialmanipulation/bounds-control\">Bounds
-        Control</a> documentation for additional guidance on how to configure the
-        script."
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items: []
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  - m_Type: 1
-    Title:
-      m_Untranslated: <u>Instructions</u>
-    Text:
-      m_Untranslated: "Select <b>Done</b> to return to the tutorial overview. \n\n<b>Note</b>:
-        You will be prompted to save the scene. Saving the scene will save the current
-        scene and the configurations you\u2019ve made during the tutorial. If you\u2019d
-        like to try the tutorial again, <b>do not</b> save the scene when prompted."
-    m_Tutorial: {fileID: 0}
-    m_Image: {fileID: 0}
-    m_Video: {fileID: 0}
-    m_CriteriaCompletion: 0
-    m_Criteria:
-      m_Items:
-      - Type:
-          m_TypeName: Unity.Tutorials.Core.Editor.PlayModeStateCriterion, Unity.Tutorials.Core.Editor,
-            Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-        Criterion: {fileID: 2695435544159138764, guid: cfe4ed4b06d5f8c48a251a6ede5ac708, type: 2}
-    m_MaskingSettings:
-      m_MaskingEnabled: 0
-      m_UnmaskedViews: []
-    m_Summary: 
-    m_Description: 
-    m_InstructionBoxTitle: 
-    m_InstructionText: 
-    m_TutorialButtonText: 
-  m_ActiveContainer: {fileID: 11400000, guid: 62ff1329b9a98024d899842e911183b5, type: 2}
-  m_TutorialProjects: []
-  m_VisibleContainers:
-  - {fileID: 11400000, guid: 62ff1329b9a98024d899842e911183b5, type: 2}
-  m_ChildContainers: []
-  m_MaskingEnabled: 1
-  m_FarthestPageCompleted: -1
-  m_PlayModeChanging: 1
